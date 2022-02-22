@@ -29,38 +29,39 @@
         private void InitializeComponent()
         {
             this.gbDatos = new System.Windows.Forms.GroupBox();
-            this.gbLista = new System.Windows.Forms.GroupBox();
-            this.btnCancelar = new System.Windows.Forms.GroupBox();
-            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
-            this.lblTitulo2 = new System.Windows.Forms.Label();
-            this.lblTipo = new System.Windows.Forms.Label();
-            this.lblCodigo = new System.Windows.Forms.Label();
-            this.lblNombre = new System.Windows.Forms.Label();
-            this.lblApellidoP = new System.Windows.Forms.Label();
-            this.lblApellidoM = new System.Windows.Forms.Label();
-            this.lblNumero = new System.Windows.Forms.Label();
-            this.lblCarrera = new System.Windows.Forms.Label();
-            this.lblGenero = new System.Windows.Forms.Label();
-            this.lblCelular = new System.Windows.Forms.Label();
-            this.lblCorreo = new System.Windows.Forms.Label();
-            this.txtCodigo = new System.Windows.Forms.TextBox();
-            this.txtNombre = new System.Windows.Forms.TextBox();
-            this.txtApellidoP = new System.Windows.Forms.TextBox();
-            this.txtApellidoM = new System.Windows.Forms.TextBox();
-            this.txtNumero = new System.Windows.Forms.TextBox();
-            this.cmbTipo = new System.Windows.Forms.ComboBox();
-            this.txtCelular = new System.Windows.Forms.TextBox();
-            this.txtCorreo = new System.Windows.Forms.TextBox();
-            this.cmbCarrera = new System.Windows.Forms.ComboBox();
-            this.cmbGenero = new System.Windows.Forms.ComboBox();
             this.cmbNumero = new System.Windows.Forms.ComboBox();
-            this.btnCrear = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
+            this.cmbGenero = new System.Windows.Forms.ComboBox();
+            this.cmbCarrera = new System.Windows.Forms.ComboBox();
+            this.txtCorreo = new System.Windows.Forms.TextBox();
+            this.txtCelular = new System.Windows.Forms.TextBox();
+            this.cmbTipo = new System.Windows.Forms.ComboBox();
+            this.txtNumero = new System.Windows.Forms.TextBox();
+            this.txtApellidoM = new System.Windows.Forms.TextBox();
+            this.txtApellidoP = new System.Windows.Forms.TextBox();
+            this.txtNombre = new System.Windows.Forms.TextBox();
+            this.txtCodigo = new System.Windows.Forms.TextBox();
+            this.lblCorreo = new System.Windows.Forms.Label();
+            this.lblCelular = new System.Windows.Forms.Label();
+            this.lblGenero = new System.Windows.Forms.Label();
+            this.lblCarrera = new System.Windows.Forms.Label();
+            this.lblNumero = new System.Windows.Forms.Label();
+            this.lblApellidoM = new System.Windows.Forms.Label();
+            this.lblApellidoP = new System.Windows.Forms.Label();
+            this.lblNombre = new System.Windows.Forms.Label();
+            this.lblCodigo = new System.Windows.Forms.Label();
+            this.lblTipo = new System.Windows.Forms.Label();
+            this.gbLista = new System.Windows.Forms.GroupBox();
+            this.dgvUsuarios = new System.Windows.Forms.DataGridView();
+            this.btnCancelar = new System.Windows.Forms.GroupBox();
             this.btnMostrar = new System.Windows.Forms.Button();
+            this.button2 = new System.Windows.Forms.Button();
+            this.btnCrear = new System.Windows.Forms.Button();
+            this.lblTitulo2 = new System.Windows.Forms.Label();
+            this.btnSalir = new System.Windows.Forms.Button();
             this.gbDatos.SuspendLayout();
             this.gbLista.SuspendLayout();
-            this.btnCancelar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).BeginInit();
+            this.btnCancelar.SuspendLayout();
             this.SuspendLayout();
             // 
             // gbDatos
@@ -94,6 +95,205 @@
             this.gbDatos.TabStop = false;
             this.gbDatos.Text = "Datos del Usuario:";
             // 
+            // cmbNumero
+            // 
+            this.cmbNumero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbNumero.FormattingEnabled = true;
+            this.cmbNumero.Items.AddRange(new object[] {
+            "C#",
+            "CQL",
+            "QR",
+            "5G",
+            "4.5GLTE",
+            "LTE",
+            "Tilin",
+            "LG",
+            "LH",
+            "KK",
+            "LGBTQ"});
+            this.cmbNumero.Location = new System.Drawing.Point(601, 25);
+            this.cmbNumero.Name = "cmbNumero";
+            this.cmbNumero.Size = new System.Drawing.Size(50, 24);
+            this.cmbNumero.TabIndex = 20;
+            // 
+            // cmbGenero
+            // 
+            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbGenero.FormattingEnabled = true;
+            this.cmbGenero.Items.AddRange(new object[] {
+            "Maculino",
+            "Femenino",
+            "HelicopteroApacheDeCombate"});
+            this.cmbGenero.Location = new System.Drawing.Point(445, 139);
+            this.cmbGenero.Name = "cmbGenero";
+            this.cmbGenero.Size = new System.Drawing.Size(150, 24);
+            this.cmbGenero.TabIndex = 19;
+            // 
+            // cmbCarrera
+            // 
+            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbCarrera.FormattingEnabled = true;
+            this.cmbCarrera.Items.AddRange(new object[] {
+            "Arquitectura",
+            "Ingenieria",
+            "Medicina"});
+            this.cmbCarrera.Location = new System.Drawing.Point(445, 83);
+            this.cmbCarrera.Name = "cmbCarrera";
+            this.cmbCarrera.Size = new System.Drawing.Size(150, 24);
+            this.cmbCarrera.TabIndex = 18;
+            // 
+            // txtCorreo
+            // 
+            this.txtCorreo.Location = new System.Drawing.Point(445, 251);
+            this.txtCorreo.Name = "txtCorreo";
+            this.txtCorreo.Size = new System.Drawing.Size(150, 22);
+            this.txtCorreo.TabIndex = 17;
+            // 
+            // txtCelular
+            // 
+            this.txtCelular.Location = new System.Drawing.Point(445, 195);
+            this.txtCelular.Name = "txtCelular";
+            this.txtCelular.Size = new System.Drawing.Size(150, 22);
+            this.txtCelular.TabIndex = 16;
+            // 
+            // cmbTipo
+            // 
+            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cmbTipo.FormattingEnabled = true;
+            this.cmbTipo.Location = new System.Drawing.Point(142, 25);
+            this.cmbTipo.Name = "cmbTipo";
+            this.cmbTipo.Size = new System.Drawing.Size(150, 24);
+            this.cmbTipo.TabIndex = 15;
+            // 
+            // txtNumero
+            // 
+            this.txtNumero.Location = new System.Drawing.Point(445, 25);
+            this.txtNumero.Name = "txtNumero";
+            this.txtNumero.Size = new System.Drawing.Size(150, 22);
+            this.txtNumero.TabIndex = 14;
+            // 
+            // txtApellidoM
+            // 
+            this.txtApellidoM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidoM.Location = new System.Drawing.Point(142, 251);
+            this.txtApellidoM.Name = "txtApellidoM";
+            this.txtApellidoM.Size = new System.Drawing.Size(150, 22);
+            this.txtApellidoM.TabIndex = 13;
+            // 
+            // txtApellidoP
+            // 
+            this.txtApellidoP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtApellidoP.Location = new System.Drawing.Point(142, 195);
+            this.txtApellidoP.Name = "txtApellidoP";
+            this.txtApellidoP.Size = new System.Drawing.Size(150, 22);
+            this.txtApellidoP.TabIndex = 12;
+            // 
+            // txtNombre
+            // 
+            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtNombre.Location = new System.Drawing.Point(142, 139);
+            this.txtNombre.Name = "txtNombre";
+            this.txtNombre.Size = new System.Drawing.Size(150, 22);
+            this.txtNombre.TabIndex = 11;
+            // 
+            // txtCodigo
+            // 
+            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.txtCodigo.Location = new System.Drawing.Point(142, 83);
+            this.txtCodigo.Name = "txtCodigo";
+            this.txtCodigo.Size = new System.Drawing.Size(150, 22);
+            this.txtCodigo.TabIndex = 10;
+            // 
+            // lblCorreo
+            // 
+            this.lblCorreo.AutoSize = true;
+            this.lblCorreo.Location = new System.Drawing.Point(298, 254);
+            this.lblCorreo.Name = "lblCorreo";
+            this.lblCorreo.Size = new System.Drawing.Size(141, 16);
+            this.lblCorreo.TabIndex = 9;
+            this.lblCorreo.Text = "Correo Electronico:";
+            // 
+            // lblCelular
+            // 
+            this.lblCelular.AutoSize = true;
+            this.lblCelular.Location = new System.Drawing.Point(378, 198);
+            this.lblCelular.Name = "lblCelular";
+            this.lblCelular.Size = new System.Drawing.Size(61, 16);
+            this.lblCelular.TabIndex = 8;
+            this.lblCelular.Text = "Celular:";
+            // 
+            // lblGenero
+            // 
+            this.lblGenero.AutoSize = true;
+            this.lblGenero.Location = new System.Drawing.Point(376, 142);
+            this.lblGenero.Name = "lblGenero";
+            this.lblGenero.Size = new System.Drawing.Size(63, 16);
+            this.lblGenero.TabIndex = 7;
+            this.lblGenero.Text = "Género:";
+            // 
+            // lblCarrera
+            // 
+            this.lblCarrera.AutoSize = true;
+            this.lblCarrera.Location = new System.Drawing.Point(375, 86);
+            this.lblCarrera.Name = "lblCarrera";
+            this.lblCarrera.Size = new System.Drawing.Size(64, 16);
+            this.lblCarrera.TabIndex = 6;
+            this.lblCarrera.Text = "Carrera:";
+            // 
+            // lblNumero
+            // 
+            this.lblNumero.AutoSize = true;
+            this.lblNumero.Location = new System.Drawing.Point(392, 28);
+            this.lblNumero.Name = "lblNumero";
+            this.lblNumero.Size = new System.Drawing.Size(47, 16);
+            this.lblNumero.TabIndex = 5;
+            this.lblNumero.Text = "Nº CI:";
+            // 
+            // lblApellidoM
+            // 
+            this.lblApellidoM.AutoSize = true;
+            this.lblApellidoM.Location = new System.Drawing.Point(6, 254);
+            this.lblApellidoM.Name = "lblApellidoM";
+            this.lblApellidoM.Size = new System.Drawing.Size(130, 16);
+            this.lblApellidoM.TabIndex = 4;
+            this.lblApellidoM.Text = "Apellido Materno:";
+            // 
+            // lblApellidoP
+            // 
+            this.lblApellidoP.AutoSize = true;
+            this.lblApellidoP.Location = new System.Drawing.Point(8, 198);
+            this.lblApellidoP.Name = "lblApellidoP";
+            this.lblApellidoP.Size = new System.Drawing.Size(128, 16);
+            this.lblApellidoP.TabIndex = 3;
+            this.lblApellidoP.Text = "Apellido Paterno:";
+            // 
+            // lblNombre
+            // 
+            this.lblNombre.AutoSize = true;
+            this.lblNombre.Location = new System.Drawing.Point(69, 142);
+            this.lblNombre.Name = "lblNombre";
+            this.lblNombre.Size = new System.Drawing.Size(67, 16);
+            this.lblNombre.TabIndex = 2;
+            this.lblNombre.Text = "Nombre:";
+            // 
+            // lblCodigo
+            // 
+            this.lblCodigo.AutoSize = true;
+            this.lblCodigo.Location = new System.Drawing.Point(74, 86);
+            this.lblCodigo.Name = "lblCodigo";
+            this.lblCodigo.Size = new System.Drawing.Size(62, 16);
+            this.lblCodigo.TabIndex = 1;
+            this.lblCodigo.Text = "Codigo:";
+            // 
+            // lblTipo
+            // 
+            this.lblTipo.AutoSize = true;
+            this.lblTipo.Location = new System.Drawing.Point(34, 28);
+            this.lblTipo.Name = "lblTipo";
+            this.lblTipo.Size = new System.Drawing.Size(102, 16);
+            this.lblTipo.TabIndex = 0;
+            this.lblTipo.Text = "Tipo Usuario:";
+            // 
             // gbLista
             // 
             this.gbLista.Controls.Add(this.dgvUsuarios);
@@ -105,8 +305,17 @@
             this.gbLista.TabStop = false;
             this.gbLista.Text = "Lista de Usuarios:";
             // 
+            // dgvUsuarios
+            // 
+            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.dgvUsuarios.Location = new System.Drawing.Point(6, 21);
+            this.dgvUsuarios.Name = "dgvUsuarios";
+            this.dgvUsuarios.Size = new System.Drawing.Size(536, 149);
+            this.dgvUsuarios.TabIndex = 0;
+            // 
             // btnCancelar
             // 
+            this.btnCancelar.Controls.Add(this.btnSalir);
             this.btnCancelar.Controls.Add(this.btnMostrar);
             this.btnCancelar.Controls.Add(this.button2);
             this.btnCancelar.Controls.Add(this.btnCrear);
@@ -118,202 +327,24 @@
             this.btnCancelar.TabStop = false;
             this.btnCancelar.Text = "Botones:";
             // 
-            // dgvUsuarios
+            // btnMostrar
             // 
-            this.dgvUsuarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.dgvUsuarios.Location = new System.Drawing.Point(6, 21);
-            this.dgvUsuarios.Name = "dgvUsuarios";
-            this.dgvUsuarios.Size = new System.Drawing.Size(536, 149);
-            this.dgvUsuarios.TabIndex = 0;
+            this.btnMostrar.Location = new System.Drawing.Point(6, 57);
+            this.btnMostrar.Name = "btnMostrar";
+            this.btnMostrar.Size = new System.Drawing.Size(100, 30);
+            this.btnMostrar.TabIndex = 2;
+            this.btnMostrar.Text = "Mostrar";
+            this.btnMostrar.UseVisualStyleBackColor = true;
+            this.btnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
             // 
-            // lblTitulo2
+            // button2
             // 
-            this.lblTitulo2.AutoSize = true;
-            this.lblTitulo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTitulo2.Location = new System.Drawing.Point(338, 9);
-            this.lblTitulo2.Name = "lblTitulo2";
-            this.lblTitulo2.Size = new System.Drawing.Size(48, 16);
-            this.lblTitulo2.TabIndex = 3;
-            this.lblTitulo2.Text = "Vacio";
-            // 
-            // lblTipo
-            // 
-            this.lblTipo.AutoSize = true;
-            this.lblTipo.Location = new System.Drawing.Point(34, 28);
-            this.lblTipo.Name = "lblTipo";
-            this.lblTipo.Size = new System.Drawing.Size(102, 16);
-            this.lblTipo.TabIndex = 0;
-            this.lblTipo.Text = "Tipo Usuario:";
-            // 
-            // lblCodigo
-            // 
-            this.lblCodigo.AutoSize = true;
-            this.lblCodigo.Location = new System.Drawing.Point(74, 86);
-            this.lblCodigo.Name = "lblCodigo";
-            this.lblCodigo.Size = new System.Drawing.Size(62, 16);
-            this.lblCodigo.TabIndex = 1;
-            this.lblCodigo.Text = "Codigo:";
-            // 
-            // lblNombre
-            // 
-            this.lblNombre.AutoSize = true;
-            this.lblNombre.Location = new System.Drawing.Point(69, 142);
-            this.lblNombre.Name = "lblNombre";
-            this.lblNombre.Size = new System.Drawing.Size(67, 16);
-            this.lblNombre.TabIndex = 2;
-            this.lblNombre.Text = "Nombre:";
-            // 
-            // lblApellidoP
-            // 
-            this.lblApellidoP.AutoSize = true;
-            this.lblApellidoP.Location = new System.Drawing.Point(8, 198);
-            this.lblApellidoP.Name = "lblApellidoP";
-            this.lblApellidoP.Size = new System.Drawing.Size(128, 16);
-            this.lblApellidoP.TabIndex = 3;
-            this.lblApellidoP.Text = "Apellido Paterno:";
-            // 
-            // lblApellidoM
-            // 
-            this.lblApellidoM.AutoSize = true;
-            this.lblApellidoM.Location = new System.Drawing.Point(6, 254);
-            this.lblApellidoM.Name = "lblApellidoM";
-            this.lblApellidoM.Size = new System.Drawing.Size(130, 16);
-            this.lblApellidoM.TabIndex = 4;
-            this.lblApellidoM.Text = "Apellido Materno:";
-            // 
-            // lblNumero
-            // 
-            this.lblNumero.AutoSize = true;
-            this.lblNumero.Location = new System.Drawing.Point(392, 28);
-            this.lblNumero.Name = "lblNumero";
-            this.lblNumero.Size = new System.Drawing.Size(47, 16);
-            this.lblNumero.TabIndex = 5;
-            this.lblNumero.Text = "Nº CI:";
-            // 
-            // lblCarrera
-            // 
-            this.lblCarrera.AutoSize = true;
-            this.lblCarrera.Location = new System.Drawing.Point(375, 86);
-            this.lblCarrera.Name = "lblCarrera";
-            this.lblCarrera.Size = new System.Drawing.Size(64, 16);
-            this.lblCarrera.TabIndex = 6;
-            this.lblCarrera.Text = "Carrera:";
-            // 
-            // lblGenero
-            // 
-            this.lblGenero.AutoSize = true;
-            this.lblGenero.Location = new System.Drawing.Point(376, 142);
-            this.lblGenero.Name = "lblGenero";
-            this.lblGenero.Size = new System.Drawing.Size(63, 16);
-            this.lblGenero.TabIndex = 7;
-            this.lblGenero.Text = "Género:";
-            // 
-            // lblCelular
-            // 
-            this.lblCelular.AutoSize = true;
-            this.lblCelular.Location = new System.Drawing.Point(378, 198);
-            this.lblCelular.Name = "lblCelular";
-            this.lblCelular.Size = new System.Drawing.Size(61, 16);
-            this.lblCelular.TabIndex = 8;
-            this.lblCelular.Text = "Celular:";
-            // 
-            // lblCorreo
-            // 
-            this.lblCorreo.AutoSize = true;
-            this.lblCorreo.Location = new System.Drawing.Point(298, 254);
-            this.lblCorreo.Name = "lblCorreo";
-            this.lblCorreo.Size = new System.Drawing.Size(141, 16);
-            this.lblCorreo.TabIndex = 9;
-            this.lblCorreo.Text = "Correo Electronico:";
-            // 
-            // txtCodigo
-            // 
-            this.txtCodigo.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtCodigo.Location = new System.Drawing.Point(142, 83);
-            this.txtCodigo.Name = "txtCodigo";
-            this.txtCodigo.Size = new System.Drawing.Size(150, 22);
-            this.txtCodigo.TabIndex = 10;
-            // 
-            // txtNombre
-            // 
-            this.txtNombre.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtNombre.Location = new System.Drawing.Point(142, 139);
-            this.txtNombre.Name = "txtNombre";
-            this.txtNombre.Size = new System.Drawing.Size(150, 22);
-            this.txtNombre.TabIndex = 11;
-            // 
-            // txtApellidoP
-            // 
-            this.txtApellidoP.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoP.Location = new System.Drawing.Point(142, 195);
-            this.txtApellidoP.Name = "txtApellidoP";
-            this.txtApellidoP.Size = new System.Drawing.Size(150, 22);
-            this.txtApellidoP.TabIndex = 12;
-            // 
-            // txtApellidoM
-            // 
-            this.txtApellidoM.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txtApellidoM.Location = new System.Drawing.Point(142, 251);
-            this.txtApellidoM.Name = "txtApellidoM";
-            this.txtApellidoM.Size = new System.Drawing.Size(150, 22);
-            this.txtApellidoM.TabIndex = 13;
-            // 
-            // txtNumero
-            // 
-            this.txtNumero.Location = new System.Drawing.Point(445, 25);
-            this.txtNumero.Name = "txtNumero";
-            this.txtNumero.Size = new System.Drawing.Size(150, 22);
-            this.txtNumero.TabIndex = 14;
-            // 
-            // cmbTipo
-            // 
-            this.cmbTipo.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbTipo.FormattingEnabled = true;
-            this.cmbTipo.Location = new System.Drawing.Point(142, 25);
-            this.cmbTipo.Name = "cmbTipo";
-            this.cmbTipo.Size = new System.Drawing.Size(150, 24);
-            this.cmbTipo.TabIndex = 15;
-            // 
-            // txtCelular
-            // 
-            this.txtCelular.Location = new System.Drawing.Point(445, 195);
-            this.txtCelular.Name = "txtCelular";
-            this.txtCelular.Size = new System.Drawing.Size(150, 22);
-            this.txtCelular.TabIndex = 16;
-            // 
-            // txtCorreo
-            // 
-            this.txtCorreo.Location = new System.Drawing.Point(445, 251);
-            this.txtCorreo.Name = "txtCorreo";
-            this.txtCorreo.Size = new System.Drawing.Size(150, 22);
-            this.txtCorreo.TabIndex = 17;
-            // 
-            // cmbCarrera
-            // 
-            this.cmbCarrera.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbCarrera.FormattingEnabled = true;
-            this.cmbCarrera.Location = new System.Drawing.Point(445, 83);
-            this.cmbCarrera.Name = "cmbCarrera";
-            this.cmbCarrera.Size = new System.Drawing.Size(150, 24);
-            this.cmbCarrera.TabIndex = 18;
-            // 
-            // cmbGenero
-            // 
-            this.cmbGenero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbGenero.FormattingEnabled = true;
-            this.cmbGenero.Location = new System.Drawing.Point(445, 139);
-            this.cmbGenero.Name = "cmbGenero";
-            this.cmbGenero.Size = new System.Drawing.Size(150, 24);
-            this.cmbGenero.TabIndex = 19;
-            // 
-            // cmbNumero
-            // 
-            this.cmbNumero.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
-            this.cmbNumero.FormattingEnabled = true;
-            this.cmbNumero.Location = new System.Drawing.Point(601, 25);
-            this.cmbNumero.Name = "cmbNumero";
-            this.cmbNumero.Size = new System.Drawing.Size(50, 24);
-            this.cmbNumero.TabIndex = 20;
+            this.button2.Location = new System.Drawing.Point(6, 93);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(100, 30);
+            this.button2.TabIndex = 1;
+            this.button2.Text = "Cancelar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // btnCrear
             // 
@@ -325,41 +356,43 @@
             this.btnCrear.UseVisualStyleBackColor = true;
             this.btnCrear.Click += new System.EventHandler(this.BtnCrear_Click);
             // 
-            // button2
+            // lblTitulo2
             // 
-            this.button2.Location = new System.Drawing.Point(6, 93);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(100, 30);
-            this.button2.TabIndex = 1;
-            this.button2.Text = "Cancelar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.lblTitulo2.AutoSize = true;
+            this.lblTitulo2.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.lblTitulo2.Location = new System.Drawing.Point(295, 9);
+            this.lblTitulo2.Name = "lblTitulo2";
+            this.lblTitulo2.Size = new System.Drawing.Size(48, 16);
+            this.lblTitulo2.TabIndex = 3;
+            this.lblTitulo2.Text = "Vacio";
             // 
-            // btnMostrar
+            // btnSalir
             // 
-            this.btnMostrar.Location = new System.Drawing.Point(6, 57);
-            this.btnMostrar.Name = "btnMostrar";
-            this.btnMostrar.Size = new System.Drawing.Size(100, 30);
-            this.btnMostrar.TabIndex = 2;
-            this.btnMostrar.Text = "Mostrar";
-            this.btnMostrar.UseVisualStyleBackColor = true;
-            this.btnMostrar.Click += new System.EventHandler(this.BtnMostrar_Click);
+            this.btnSalir.Location = new System.Drawing.Point(6, 129);
+            this.btnSalir.Name = "btnSalir";
+            this.btnSalir.Size = new System.Drawing.Size(100, 30);
+            this.btnSalir.TabIndex = 3;
+            this.btnSalir.Text = "Salir";
+            this.btnSalir.UseVisualStyleBackColor = true;
+            this.btnSalir.Click += new System.EventHandler(this.BtnSalir_Click);
             // 
             // frmCrear
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(856, 510);
+            this.ClientSize = new System.Drawing.Size(689, 510);
             this.Controls.Add(this.lblTitulo2);
             this.Controls.Add(this.btnCancelar);
             this.Controls.Add(this.gbLista);
             this.Controls.Add(this.gbDatos);
             this.Name = "frmCrear";
             this.Text = "frmCrear";
+            this.Load += new System.EventHandler(this.FrmCrear_Load);
             this.gbDatos.ResumeLayout(false);
             this.gbDatos.PerformLayout();
             this.gbLista.ResumeLayout(false);
-            this.btnCancelar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.dgvUsuarios)).EndInit();
+            this.btnCancelar.ResumeLayout(false);
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -396,5 +429,6 @@
         private System.Windows.Forms.Button btnCrear;
         public System.Windows.Forms.Label lblTitulo2;
         private System.Windows.Forms.Button btnMostrar;
+        private System.Windows.Forms.Button btnSalir;
     }
 }

@@ -41,15 +41,16 @@ namespace Formulario
         #region Cargar frmIniciar
         private void FrmIniciar_Load(object sender, EventArgs e)
         {
-            btnIngresar.Enabled = false;
+            btnIngresar.Enabled = true;
         }
         #endregion
 
-        #region 
+        #region Boton Ingresar Click
         private void BtnIngresar_Click(object sender, EventArgs e)
         {
             if (txtNombre.Text == "Admin" && txtContraseña.Text == "1234" && cmbTipo.SelectedItem.ToString() == "Administrador")
             {
+                
                 this.Hide();
                 frmCrear iuAdmin = new frmCrear();
                 iuAdmin.lblTitulo2.Text = "Bienvenido" + "" + txtNombre.Text;

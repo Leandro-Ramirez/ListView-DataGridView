@@ -1,0 +1,11 @@
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\bin\Debug\Formulario.exe.config
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\bin\Debug\Formulario.exe
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\bin\Debug\Formulario.pdb
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.csprojAssemblyReference.cache
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.Formularios.frmCrear.resources
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.frmIniciar.resources
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.Properties.Resources.resources
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.csproj.GenerateResource.cache
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.csproj.CoreCompileInputs.cache
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.exe
+C:\Users\JADPA11\Downloads\ListView-DataGridView-main\ListViewYDataGritView\Formulario\obj\Debug\Formulario.pdb
